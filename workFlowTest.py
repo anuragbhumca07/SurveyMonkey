@@ -8,6 +8,7 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      print("Anurag1")
-      sleep(60)
-      print("Anurag2")
+      for i in range(5):
+        print("Anurag1")
+        sleep(5)
+        print("Anurag2")
